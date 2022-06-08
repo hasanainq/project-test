@@ -46,7 +46,7 @@ def test_prime_number():
 
 def test_reverse():
 	value = reverse("abc") 
-	assert value == "cba"
+	assert value == "cba1"
 	value = reverse([1,2,3]) 
 	assert value == [3,2,1]
 
