@@ -7,7 +7,7 @@ def reverse(str):
 
 # print(reverse("hello"))
 
-def is_palindrom(str):
+def is_palindrom(int):
     '''
  		return true if the string is palindrom
 	'''
@@ -45,7 +45,7 @@ def test_prime_number():
 	assert is_prime(6) == False
 
 def test_reverse():
-	value = reverse("abc1") 
+	value = reverse("abc0") 
 	assert value == "cba"
 	value = reverse([1,2,3]) 
 	assert value == [3,2,1]
