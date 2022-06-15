@@ -49,8 +49,6 @@ def test_reverse():
 	assert value == "cba"
 	value = reverse([1,2,3]) 
 	assert value == [3,2,1]
-	value = reverse("tst") 
-	assert value == "tst"
 
 def test_sum():
 	sum_of_two_numbers = sum(2,2)
