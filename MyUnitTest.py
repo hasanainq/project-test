@@ -35,8 +35,8 @@ def is_prime(number):
 	#################################################
 '''
 def test_palindrome():
-	Value = is_palindrom('dad') 
-	assert value == True
+	value = is_palindrom('dad') 
+	assert Value == True
 
 def test_prime_number():
 	
@@ -51,8 +51,8 @@ def test_reverse():
 	assert value == [3,2,1]
 	
 	''' add new Code Line '''
-	value = reverse("tst") 
-	assert value == "tst"
+	value = reverse("test") 
+	assert value == "test"
 
 def test_sum():
 	sum_of_two_numbers = sum(2,2)
