@@ -35,8 +35,8 @@ def is_prime(number):
 	#################################################
 '''
 def test_palindrome():
-	value = is_palindrom('dad') 
-	assert Value == True
+	Value = is_palindrom('dad') 
+	assert value == True
 
 def test_prime_number():
 	
