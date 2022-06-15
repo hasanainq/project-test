@@ -7,7 +7,7 @@ def reverse(str):
 
 # print(reverse("hello"))
 
-def is_palindrom(int):
+def is_palindrom(str):
     '''
  		return true if the string is palindrom
 	'''
