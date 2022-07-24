@@ -51,7 +51,11 @@ def test_reverse():
 	assert value == [3,2,1]
 	
 	''' add new Code Line '''
+<<<<<<< HEAD
 	value = reverse("tast") 
+=======
+	value = reverse("test") 
+>>>>>>> 1264f26a742c7e2bdcdc3b6a6e3f2a17686a1954
 	assert value == "test"
 
 def test_sum():
