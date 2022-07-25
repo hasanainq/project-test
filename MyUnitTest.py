@@ -45,15 +45,15 @@ def test_prime_number():
 	assert is_prime(6) == False
 
 def test_reverse():
-	value = reverse("xyz") 
-	assert value == "zyx"
+	value = reverse("abc1") 
+	assert value == "cba"
 	value = reverse([1,2,3]) 
 	assert value == [3,2,1]
 	
 	''' add new Code Line '''
 
-	value = reverse("text") 
-	assert value == "taxt"
+	value = reverse("test") 
+	assert value == "text"
 
 def test_sum():
 	sum_of_two_numbers = sum(2,2)
