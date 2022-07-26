@@ -54,7 +54,7 @@ def test_reverse():
 	''' add new Code Line '''
 
 	value = reverse("text") 
-	assert value == "test"    # BUG #3 -->this must be also text not test
+	assert value == "test"    # BUG #3 -->this must be also txet not test
 
 def test_sum():
 	sum_of_two_numbers = sum(2,2)
