@@ -7,8 +7,7 @@ def reverse(str):
 
 # print(reverse("hello"))
 
-def is_palindrom(int): # BUG #1 -->this must be String not Integer
-    '''
+def is_palindrom(str): 
  		return true if the string is palindrom
 	'''
     return str==reverse(str)
@@ -47,14 +46,14 @@ def test_prime_number():
 def test_reverse():
 	value = reverse("abc") 
  		
-	assert value == "cab"     # BUG#2 -->this must be cba not cab
+	assert value == "cba"   
 	value = reverse([1,2,3]) 
 	assert value == [3,2,1]
 	
 	''' add new Code Line '''
 
 	value = reverse("text") 
-	assert value == "tset"    # BUG#3 -->this must be also txet not tset
+	assert value == "txet"    
 
 def test_sum():
 	sum_of_two_numbers = sum(2,2)
