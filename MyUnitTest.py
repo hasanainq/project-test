@@ -46,12 +46,12 @@ def test_prime_number():
 
 def test_reverse():
 	value = reverse("abc") 
-	assert value == "bac"
+	assert value == "cab"
 	value = reverse([1,2,3]) 
 	assert value == [3,2,1]
 	''' add new Code Line '''
-	value = reverse("test") 
-	assert value == "text"
+	value = reverse("latex") 
+	assert value == "xetel"
 
 def test_sum():
 	sum_of_two_numbers = sum(2,2)
